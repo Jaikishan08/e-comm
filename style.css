@@ -407,7 +407,19 @@ button.normal{
 }
 
 #sm-banner .banner-box2{
-  background-image: url(https://i.postimg.cc/gJ7FHxHv/b10.jpg)
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+
+  background-image: url(chunky.jpg);
+  min-width: 580px;
+  height: 40vh;
+  background-position: center;
+  background-size: cover;
+  padding: 30px
+  
 }
 
 #sm-banner{
@@ -677,7 +689,7 @@ display: flex;
 }
   #mobile i{
     font-size: 32px;
-    color: #1a1a1a;
+    color: #fff3f3;
     padding-left: 20px
   }
   body #lg-bag{
